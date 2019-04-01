@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+html {
+    background-color: darkgray;
+}
+
+/*body*/
+body {
+    width: 750px;
+    margin: 0 auto;
+    /*padding-left: 10px;*/
+}
+
+/*header*/
+header {
+    background-color: #e2e2e2;
+}
+
+header h1 {
+    line-height: 50px;
+    padding-left: 10px;
+
+}
+
+header nav {
+    padding-left: 10px;
+    background-color: #c6a7a5;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+/*content*/
+
+/*https://stackoverflow.com/questions/1205159/html-css-making-two-floating-divs-the-same-height*/
+.content{
+    overflow: hidden;
+    width: 750px;
+}
+/*.content::after {*/
+/*content: '';*/
+/*clear: both;*/
+/*display: block;*/
+/*}*/
+
+/*main*/
+
+.content main {
+    background-color: #b1cfa8;
+    float: left;
+    width: 520px;
+    /*padding: 10px 10px 20px 10px;*/
+    padding-bottom: 100em;
+    margin-bottom: -100em;
+
+}
+
+.content main article {
+    padding: 10px;
+}
+
+.content main article h2 {
+    margin-bottom: 20px;
+}
+
+.content main article a{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content main article a, .content main article p, .content aside p {
+    font-family: sans-serif;
+}
+
+/*aside*/
+.content aside {
+    width: 230px;
+    background-color: #a5c6ce;
+    float: right;
+    height: 100%;
+    padding: 10px 10px 500em 10px;
+    /*padding-bottom: 500em;*/
+    margin-bottom: -500em;
+}
+
+.content aside h2, .content aside p {
+    margin-bottom: 20px;
+}
+
+.content aside ul li {
+    margin-left: 40px;
+}
+
+.content aside a {
+    display: block;
+    /*padding-left: 20px;*/
+}
+
+/*footer*/
+footer {
+    background-color: #d1d0a6;
+    padding: 5px 10px;
+}
+
+
+
