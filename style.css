@@ -5,31 +5,25 @@
 }
 
 /*body*/
-html {
-    background-color: darkgray;
-}
-
-/*body*/
 body {
-    width: 750px;
+    width: 800px;
     margin: 0 auto;
-    /*padding-left: 10px;*/
 }
 
 /*header*/
 header {
-    background-color: #e2e2e2;
+    background-color: #8f8f8f;
 }
 
 header h1 {
-    line-height: 50px;
     padding-left: 10px;
-
+    height: 50px;
+    font-family: sans-serif;
 }
 
 header nav {
-    padding-left: 10px;
-    background-color: #c6a7a5;
+    padding-left: 40px;
+    background-color: #2036f7;
 }
 
 header nav ul {
@@ -41,56 +35,88 @@ header nav ul li {
 }
 
 header nav ul li a {
-    line-height: 30px;
+    line-height: 60px;
     padding-right: 10px;
+    color: #ffffff;
 }
 
 /*content*/
 .content {
-    max-width: 100%;
     overflow: hidden;
+    width: 100%;
 }
 
 /*main*/
 
 .content main {
-    background-color: #b1cfa8;
-    display: inline-block;
-    width: 520px;
-    padding: 10px 10px 500px 10px;
+    background-color: #ffffff;
+    width: 550px;
+    float: right;
+    padding-bottom: 500px;
     margin-bottom: -500px;
-    margin-right: -4px;
 }
 
-.content main article h2 {
-    margin-bottom: 20px;
-}
-
-.content main article a{
-    display: block;
-    margin-bottom: 15px;
-}
-
-.content main article a, .content main article p, .content aside p {
+.content main article, .content aside p {
     font-family: sans-serif;
 }
 
-.content article p:last-child {
-    padding-bottom: 20px;
-}
-/*aside*/
-.content aside {
-    width: 230px;
-    vertical-align: top;
-    background-color: #a5c6ce;
-    display: inline-block;
-    padding: 10px 10px 500px 10px;
-    margin-bottom: -500px;
-    margin-right: -4px;
+.content main article {
+    padding-top: 20px;
 }
 
-.content aside h2, .content aside p {
-    margin-bottom: 20px;
+.content main article .article__text {
+    padding: 0 10px;
+}
+
+.content main article .article__foot {
+    height: 128px;
+    margin-top: 25px;
+}
+
+.content main article .article__foot .foot {
+    padding: 0 10px;
+    text-align: justify;
+    height: 128px;
+    line-height: 128px;
+}
+
+.content main article .article__foot .foot span {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content main article .foot__left {
+    background-color: #4e8b20;
+    width: 50%;
+    float: left;
+}
+
+.content main article .foot__right {
+    background-color: #dc2b06;
+    width: 50%;
+    float: right;
+}
+
+/*aside*/
+.content aside {
+    float: left;
+    vertical-align: top;
+    margin-right: -4px;
+    width: 250px;
+}
+
+.content aside .aside {
+    height: 150px;
+    width: 100%;
+}
+
+.content aside .aside--1 {
+    background-color: #fefb3b ;
+}
+
+.content aside .aside--2 {
+    background-color: #8f8f8f;
 }
 
 .content aside ul li {
@@ -99,16 +125,19 @@ header nav ul li a {
 
 .content aside a {
     display: block;
-    /*padding-left: 20px;*/
 }
-
-
 
 /*footer*/
 footer {
-    background-color: #d1d0a6;
-    padding: 5px 10px;
+    background-color: #2036f7;
+    font-family: sans-serif;
+
 }
 
+footer h2 {
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
 
 
