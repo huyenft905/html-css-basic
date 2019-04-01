@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+html {
+    background-color: darkgray;
+}
+
+/*body*/
+body {
+    width: 750px;
+    margin: 0 auto;
+    /*padding-left: 10px;*/
+}
+
+/*header*/
+header {
+    background-color: #e2e2e2;
+}
+
+header h1 {
+    line-height: 50px;
+    padding-left: 10px;
+
+}
+
+header nav {
+    padding-left: 10px;
+    background-color: #c6a7a5;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+/*content*/
+.content {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/*main*/
+
+.content main {
+    background-color: #b1cfa8;
+    display: inline-block;
+    width: 520px;
+    padding: 10px 10px 500px 10px;
+    margin-bottom: -500px;
+    margin-right: -4px;
+}
+
+.content main article h2 {
+    margin-bottom: 20px;
+}
+
+.content main article a{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content main article a, .content main article p, .content aside p {
+    font-family: sans-serif;
+}
+
+.content article p:last-child {
+    padding-bottom: 20px;
+}
+/*aside*/
+.content aside {
+    width: 230px;
+    vertical-align: top;
+    background-color: #a5c6ce;
+    display: inline-block;
+    padding: 10px 10px 500px 10px;
+    margin-bottom: -500px;
+    margin-right: -4px;
+}
+
+.content aside h2, .content aside p {
+    margin-bottom: 20px;
+}
+
+.content aside ul li {
+    margin-left: 40px;
+}
+
+.content aside a {
+    display: block;
+    /*padding-left: 20px;*/
+}
+
+
+
+/*footer*/
+footer {
+    background-color: #d1d0a6;
+    padding: 5px 10px;
+}
+
+
+
