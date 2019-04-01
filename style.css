@@ -51,9 +51,10 @@ header nav ul li a {
 .content main {
     background-color: #ffffff;
     width: 550px;
-    float: right;
+    display: inline-block;
     padding-bottom: 500px;
     margin-bottom: -500px;
+    margin-right: -4px;
 }
 
 .content main article, .content aside p {
@@ -88,19 +89,22 @@ header nav ul li a {
 
 .content main article .foot__left {
     background-color: #4e8b20;
+    display: inline-block;
+    margin-right: -4px;
     width: 50%;
-    float: left;
 }
 
 .content main article .foot__right {
     background-color: #dc2b06;
+    display: inline-block;
+    margin-right: -4px;
     width: 50%;
-    float: right;
+
 }
 
 /*aside*/
 .content aside {
-    float: left;
+    display: inline-block;
     vertical-align: top;
     margin-right: -4px;
     width: 250px;
@@ -119,12 +123,14 @@ header nav ul li a {
     background-color: #8f8f8f;
 }
 
+
 .content aside ul li {
     margin-left: 40px;
 }
 
 .content aside a {
     display: block;
+    /*padding-left: 20px;*/
 }
 
 /*footer*/
