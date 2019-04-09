@@ -18,6 +18,25 @@ html {
   margin: 0 auto;
 }
 
+.btn {
+  border: 1px solid #1a75ff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #111111;
+  transition: 0.3s all ease-out;
+  display: inline-block;
+}
+.btn:hover {
+  color: #ffffff;
+  background: #1a75ff;
+}
+
+.btn-center {
+  text-align: center;
+}
+
 .header {
   overflow: hidden;
   width: 100%;
@@ -199,6 +218,48 @@ footer ul li {
 }
 footer ul li a {
   color: #111;
+}
+
+/*============product.html==============*/
+.item {
+  width: 60%;
+  float: left;
+}
+.item__content {
+  width: 100%;
+  overflow: hidden;
+  padding: 35px 0;
+}
+.item__content .item__left {
+  width: 60%;
+  float: left;
+}
+.item__content .item__left .img-big {
+  display: block;
+  width: 100%;
+}
+.item__content .item__left .img-small {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+}
+.item__content .item__left .img-small img {
+  display: inline-block;
+  width: 20%;
+}
+.item__content .item__right h3 {
+  margin-bottom: 15px;
+}
+.item__content .item__right .item__title {
+  font-weight: bold;
+}
+.item__content .item__right .item__txt {
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.item__desc h4 {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
